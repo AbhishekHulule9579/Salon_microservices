@@ -10,10 +10,25 @@
         <module name="salon-service" />
         <module name="user-service" />
       </profile>
+      <profile name="Annotation profile for category_services" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="category_services" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="category-service" target="24" />
+      <module name="category-service (2) (com.infinite)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="category-service (2) (com.infinite)" options="-parameters" />
+      <module name="category_services" options="-parameters" />
       <module name="salon-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
