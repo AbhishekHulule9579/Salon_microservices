@@ -6,15 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/salon-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../category-service/pom.xml" />
-        <option value="$PROJECT_DIR$/category-service/pom.xml" />
+        <option value="$PROJECT_DIR$/service-offering/pom.xml" />
         <option value="$PROJECT_DIR$/category_services/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/../category-service/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="openjdk-24" project-jdk-type="JavaSDK">

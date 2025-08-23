@@ -4,33 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af15796b-d0c5-43a5-a43c-48eb6114965c" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category_services/src/main/java/com/infinite/controller/SalonCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category_services/src/main/java/com/infinite/controller/SalonCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category_services/src/main/java/com/infinite/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/category_services/src/main/java/com/infinite/service/impl/CategoryServiceImpl.java" afterDir="false" />
+    <list default="true" id="ec8abb1e-a43c-4a85-81bb-7b193695abf1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-      <option value="module" />
-      <option value="repository" />
-    </option>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -45,179 +39,43 @@
     &quot;accountId&quot;: &quot;cd7e66bb-1178-43f1-8943-511a4750caca&quot;
   }
 }</component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="30Br06a1DDtkak5i4HCt6J20aCo" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="31fdqPbXz6CBoLfROJNsIOA8B1f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CategoryServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CategoryServicesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SalonServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/microservices/category_services/src/main/java/com/infinite&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/category-service/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.ServiceOfferingApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/microservices/service-offering/src/main/java/com/infinite"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\microservices\category_services\src\main\java\com\infinite" />
-      <recent name="D:\microservices\salon-service\src\main\java\com\infinite" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\microservices\salon-service" />
-      <recent name="D:\category-service\src\main" />
+      <recent name="D:\microservices\service-offering\src\main\java\com\infinite" />
     </key>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="af15796b-d0c5-43a5-a43c-48eb6114965c" name="Changes" comment="" />
-      <created>1753111583360</created>
+      <changelist id="ec8abb1e-a43c-4a85-81bb-7b193695abf1" name="Changes" comment="" />
+      <created>1755919251742</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1753111583360</updated>
+      <updated>1755919251742</updated>
     </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1755574080365</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1755574080365</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1755574444914</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1755574444914</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1755575497921</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1755575497921</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1755576022181</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1755576022181</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1755576072747</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1755576072747</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1755657434525</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1755657434525</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1755669079205</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1755669079205</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1755752554920</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1755752554920</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1755755164719</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1755755164719</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1755839520366</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1755839520366</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="dd33fdf3-9085-4a2d-9340-b0133442aa04" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-        <entry key="dd33fdf3-9085-4a2d-9340-b0133442aa04">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../category-service/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
