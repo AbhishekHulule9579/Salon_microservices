@@ -1,8 +1,11 @@
 package com.infinite.dto;
 
+import lombok.Data;
+
 import java.time.LocalDateTime;
 import java.util.Set;
 
+@Data
 public class BookingRequest {
 
     private LocalDateTime startTime;
@@ -10,4 +13,5 @@ public class BookingRequest {
     private LocalDateTime endTime;
 
     Set<Long>serviceIds;
+
 }
