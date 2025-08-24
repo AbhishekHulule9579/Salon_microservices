@@ -2,7 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -19,11 +18,13 @@
         </processorPath>
         <module name="category_services" />
         <module name="service-offering" />
+        <module name="booking-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="booking-service" options="-parameters" />
       <module name="category_services" options="-parameters" />
       <module name="salon-service" options="-parameters" />
       <module name="service-offering" options="-parameters" />
