@@ -4,6 +4,7 @@ import com.infinite.domain.BookingStatus;
 import com.infinite.dto.*;
 import com.infinite.mapper.BookingMapper;
 import com.infinite.modal.Booking;
+import com.infinite.modal.SalonReport;
 import com.infinite.service.BookingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.awt.print.Book;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -31,6 +33,8 @@ public class BookingController {
 
         SalonDTO salonDTO=new SalonDTO();
         salonDTO.setId(salonId);
+        salonDTO.setOpenTime(LocalTime.now());
+        salonDTO.setCloseTime(LocalTime.now().plusHours(12));
 
         Set<ServiceDTO>serviceDTOSet=new HashSet<>();
 
@@ -88,12 +92,25 @@ public class BookingController {
     }
 
     @GetMapping("/slots/salon/{salonId}/date/{date}")
-    public ResponseEntity<BookingDTO>getBookedSlot(
+    public ResponseEntity<List<BookingSlotDTO>>getBookedSlot(
             @PathVariable Long salonId,
-            @RequestParam LocalDate date) throws Exception {
+            @RequestParam(required = false) LocalDate date) throws Exception {
         List<Booking> bookings=bookingService.getBookingsByDate(date,salonId);
 
-        return ResponseEntity.ok(BookingMapper.toDTO(bookings));
+        List<BookingSlotDTO>slotDTOs=bookings.stream()
+                .map(booking -> {
+                    BookingSlotDTO slotDTO=new BookingSlotDTO();
+                    slotDTO.setStartTime(booking.getStartTime());
+                    slotDTO.setEndTime((booking.getEndTime()));
+                    return slotDTO;
+                }).collect(Collectors.toList());
+        return ResponseEntity.ok(slotDTOs);
+    }
+
+    @GetMapping("/report")
+    public ResponseEntity<SalonReport>getSalonReport() throws Exception {
+        SalonReport report =bookingService.getSalonReport(1L);
+        return ResponseEntity.ok(report);
     }
 
 }
