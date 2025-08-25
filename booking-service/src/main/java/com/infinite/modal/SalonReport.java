@@ -9,7 +9,7 @@ public class SalonReport {
 
     private String salonName;
 
-    private Double totalEarnings;
+    private int totalEarnings;
 
     private Integer totalBookings;
 
